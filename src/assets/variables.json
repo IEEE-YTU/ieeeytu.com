@@ -1,0 +1,138 @@
+{
+  "slogan": {
+    "tr": "Sadece Derse Girerek Mühendis Olunmaz!",
+    "en": "You Cannot Become An Engineer By Just Entering The Lessons!"
+  },
+  "explore": {
+    "tr": "Keşfet",
+    "en": "Explore"
+  },
+  "about": {
+    "tr": "Hakkımızda",
+    "en": "About Us "
+  },
+  "mainpage1": {
+    "tr": "IEEE YTÜ Öğrenci Kulübü, Yıldız Teknik Üniversitesi’nin; Elektrik Mühendisliği, Elektronik ve Haberleşme Mühendisliği ve Bilgisayar Mühendisliği öğrencilerinin çabaları ile 8 Mayıs 2001 tarihinde kar amacı gütmeyen, dünyanın en büyük mesleki ve teknik organizasyonu olan IEEE (Institude for Engineers and Everybody Else)‘nin 1150 öğrenci kolu arasında resmi olarak faaliyete geçmiştir.",
+    "en": "IEEE YTU Student Club, Yıldız Technical University's; With the efforts of Electrical Engineering, Electronics and Communication Engineering and Computer Engineering students, it has been officially activated on May 8, 2001 among 1150 student branches of IEEE (Institude for Engineers and Everybody Else), which is nonprofit, the world's largest professional and technical organization."
+  },
+  "mainpage2": {
+    "tr": "Kurulduğu hafta içinde, üye sayısını küçük bir öğrenci grubundan 100’lü rakamlara çıkararak Yıldız Teknik Üniversitesi’nin en çabuk büyüyen kulüplerinden biri olan IEEE YTÜ, tüm Dünya’daki üniversitelerde bir hafta içinde en çok yeni üye alan IEEE Öğrenci Kulübü olarak (107 üye ile) önemli bir rekora imza atmıştır.",
+    "en": "IEEE YTU,one of the fastest growing clubs of Yıldız Technical University has set an important record  by increasing the number of members from a small student group to 100, as the IEEE Student Club received higher number of new members than other universities all over the World, during the week of its establishment."
+  },
+  "mainpage3": {
+    "tr": "2001 yılından bu yana teknik ve sosyal alanda eğitim ve proje bazlı birçok aktivite gerçekleştiren topluluğumuz, kulüp üyelerinin yetkinlikleri çerçevesinde özverili çalışmalarıyla birçok başarıya imza atarak IEEE Türkiye yapılanmasındaki en gözde kulüplerden biri olmanın haklı gururunu yaşamaktadır.",
+    "en": "Since 2001,our community which has carried out many educational and project-based activities in the technical and social fields , live to rightful pride that being one of the most favorite clubs in IEEE Turkey by it has achieved many successes with the devoted work of the club members within the framework of their competence."
+  },
+  "events": {
+    "tr": "Ses Getiren Etkinliklerimiz",
+    "en": "Our Big Events"
+  },
+  "more_info": {
+    "tr": "Daha Fazla Bilgi",
+    "en": "More Information"
+  },
+  "comments": {
+    "tr": "Sektörden Yorumlar",
+    "en": "Comments From The Sector"
+  },
+  "our_committees": {
+    "tr": "Komitelerimiz",
+    "en": "Our Committees"
+  },
+  "our_vision": {
+    "tr": "Vizyonumuz",
+    "en": "Our Vision"
+  },
+  "vision_title": {
+    "tr": "IEEE YTÜ Öğrenci Kulübü olarak Vizyonumuz;",
+    "en": " Our Vision as IEEE YTU Student Club"
+  },
+  "vision1": {
+    "tr": "Mühendislik sınırlarını zorlayarak, bilim ve teknoloji alanındaki gelişmeleri sadece takip eden değil aynı zamanda bu gelişmelere katkıda bulunan,",
+    "en": "By pushing the limits of engineering, not only following the developments in the field of science and technology, but also contributing to these developments,"
+  },
+  "vision2": {
+    "tr": "Yaptığımız projelerle ülkemizde sınırlı olan Ar-Ge çalışmalarına yenilerini ekleyerek ülkemize katkı sağlayan,",
+    "en": "Contributing to our country by adding new ones to the R&D studies that are limited in our country with the projects we have done,"
+  },
+  "vision3": {
+    "tr": "Teknolojiyi herkesin kullanımına açmayı hedefleyerek sosyal sorumluluğun bilincinde olan ve mühendisliğin etiğine her zaman bağlı kalabilen,",
+    "en": "Being aware of social responsibility and always adhering to the ethics of engineering by aiming to make technology available to everyone,"
+  },
+  "vision4": {
+    "tr": "Kendi üniversitemizde ve diğer Üniversitelerdeki kulüpler ile sağlıklı iletişim kurabilen, bilgi ve tecrübe akışını çift yönlü koruyabilen bir kulüp olmaktır.",
+    "en": "Being a club that can establish a healthy communication with the clubs in our own university and other universities and maintain the flow of information and experience in both directions."
+  },
+  "our_mission": {
+    "tr": "Misyonumuz",
+    "en": "Our Mission"
+  },
+  "mission_title": {
+    "tr": "Üyelerimizin gelişen Dünya’nın teknolojisine ayak uydurmalarını sağlamak ve kişisel gelişimlerine katkıda bulunmak için:",
+    "en": "To ensure that our members keep up with the technology of the developing world and contribute to their personal development:"
+  },
+  "mission1": {
+    "tr": "Üyelerimizin elektrik, elektronik, haberleşme, makine, mekatronik, bilgisayar ve biyomedikal başta olmak üzere tüm mühendislik alanlarında edindikleri teorik bilgileri iş hayatına atıldıktan sonra uygulamaya dönüştürebilecekleri sanayi hakkında fikir sahibi olmalarını sağlamak, iş sahasını inceleme fırsatı veren teknik gezi organizasyonları ve sağlanan diğer eğitim olanaklarını sürekli kılmak, sağlanan olanaklar ile hayal gücü ve inovasyon yetenekleri doğrultusunda üyelerimizin geliştirecekleri teknik projeleri desteklemek, IEEE üyelerinin sektörü tanıyan ve takip eden mühendisler olmaları için çalışmak, hayallerindeki iş ve kariyer fırsatlarını yakalamaları için sürekli destek sağlamaktır.",
+    "en": "IEEE provides continuous support to ensure that our members have an idea about the industry where they can turn the theoretical knowledge they have acquired in all engineering fields, especially electricity, electronics, communications, machinery, mechatronics, computers and biomedical into practice, to perpetuate technical trip organizations and other training opportunities that provide the opportunity to examine the business field, to support technical projects to be developed by our members in line with the opportunities provided, imagination and innovation abilities, to work so that IEEE members become engineers who know and follow the industry, to get the job and career opportunities of their dreams. "
+  },
+  "mission2": {
+    "tr": "IEEE YTÜ Öğrenci Kulübü gerçekleştirdiği faaliyetlerle sadece bir öğrenci kulübü olmanın ötesinde mühendis adaylarıyla iş dünyası arasındaki köprünün kurulmasına, üyelerine teknik donanımlarının yanında ekip ruhu, liderlik, takım çalışmasına yatkınlık gibi günümüz dünyasında kimlik teşkil edecek kişisel özellikleri de kazandırmayı amaçlar.",
+    "en": "IEEE YTU Student Club aims not only to be a student club but also to bring in personal characteristics that will constitute an identity in today's world such as establish the bridge between engineer candidates and the business world, team spirit besides technical equipment, leadership, teamwork predisposition."
+  },
+  "mission3": {
+    "tr": "Önceliğimiz; mühendislik sınırlarını zorlayarak bilim ve teknoloji alanındaki gelişmeleri sadece takip etmek değil, bu gelişmelere bizzat katkıda bulunmak, ülkemize ve insanlığa yararlı olacak projelerde yer alarak mühendislikte dünya standartlarını yakalamak, üniversite-sanayi-öğrenci üçgenindeki bağları kuvvetlendirerek üniversitelerimizin yine ülkemiz teknolojisine katkı sağlaması konusunda üstlendiğimiz sorumluluğu harfiyen yerine getirmektir.",
+    "en": "Our precedence; not just to follow the developments in science and technology by pushing the limits of engineering, it is  contribute to these developments personally, catch world standards in engineering by taking part in projects that will be beneficial to our country and humanity, carry out literally the responsibility we undertake for our universities to contribute to the technology of our country by strengthening the ties in the university-industry-student triangle."
+  },
+  "browser_events": {
+    "tr": "Etkinliklerimize Gözat",
+    "en": "Browse Our Events"
+  },
+  "contact_us": {
+    "tr": "Bize Ulaşın",
+    "en": "Contact Us"
+  },
+  "meet_team": {
+    "tr": "Ekimibizle Tanışın",
+    "en": "Meet Our Team"
+  },
+  "best": {
+    "tr": "Dünyanın En İyi Ekibi",
+    "en": "The Best Team In The World"
+  },
+  "directors": {
+    "tr": "Yönetim Kurulu",
+    "en": "Board of Directors"
+  },
+  "administrative": {
+    "tr": "İdari Kurul",
+    "en": "Administrative Board"
+  },
+  "supervisory": {
+    "tr": "Denetleme Kurulu",
+    "en": "Supervisory Board"
+  },
+  "home": {
+    "tr": "Ana Sayfa",
+    "en": "Home Page"
+  },
+  "committees": {
+    "tr": "Komiteler",
+    "en": "Committees"
+  },
+  "team": {
+    "tr": "Ekibimiz",
+    "en": "Our Team"
+  },
+  "contact": {
+    "tr": "İletişim",
+    "en": "Contact"
+  },
+  "follow": {
+    "tr": "Bizi Takip Edin",
+    "en": "Follow Us"
+  },
+  "quick":{
+      "tr":"Hızlı Linkler",
+      "en":"Quick Links"
+  }
+}
