@@ -1,0 +1,92 @@
+[
+    {
+      "title": {
+        "tr": "Basın Sponsorlarımız",
+        "en": "Our Press Sponsors"
+      },
+      "sponsors": [
+        {
+          "logo":
+            "https://www.ytukampus.com/wp-content/uploads/2017/01/ytu-kampus-logop4.png",
+          "link": "https://www.ytukampus.com/"
+        },
+        {
+          "logo":
+            "https://birparcatuhaftik.com/wp-content/uploads/2019/08/logo-b.82e0522c.png",
+          "link": "https://birparcatuhaftik.com/"
+        },
+        {
+          "logo": "https://ogrencikariyeri.com/images/logo/logo-white.png",
+          "link": "https://ogrencikariyeri.com/"
+        },
+        {
+          "logo":
+            "https://teknorun.net/wp-content/uploads/2020/02/logo-v2-4.png",
+          "link": "https://www.teknorun.net/"
+        },
+        {
+          "logo":
+            "https://i.hizliresim.com/F7Me8V.png",
+          "link": "https://www.muhendisegitim.com/"
+        },
+        {
+          "logo":
+            "https://girisimciimuhendis.files.wordpress.com/2020/01/cropped-logo1.png",
+          "link": "https://girisimcimuhendis.com/"
+        },
+        {
+          "logo":
+            "https://tazemuhendis.com/wp-content/uploads/2020/11/taze-muhendis-logo.png",
+          "link": "https://tazemuhendis.com/"
+        },
+        {
+          "logo":
+            "https://instagram.fist3-1.fna.fbcdn.net/v/t51.2885-19/s320x320/49907452_2088684394523981_1365719975729299456_n.jpg?_nc_ht=instagram.fist3-1.fna.fbcdn.net&_nc_ohc=utfAE7dBfHwAX9i_N6y&tp=1&oh=cc24cb5bd5a1f57bf02d3173e8758412&oe=5FFF36BC",
+          "link": "https://www.instagram.com/insaatmuh_mimar/",
+          "name":"İnşaat Müh_Mimarlar Topluluğu"
+        },
+        {
+          "logo":
+            "https://instagram.fist3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/72792132_436051263683757_6209315364644323328_n.jpg?_nc_ht=instagram.fist3-1.fna.fbcdn.net&_nc_ohc=F9gT1354_zMAX8IG5a6&tp=1&oh=b57c4ac289af7a985f33aa14a2b99fc4&oe=5FFEC49E",
+          "link": "https://www.instagram.com/insaatr/",
+          "name": "İnşaat ve Mimari Türkiye"
+        },
+        {
+          "logo":
+            "https://instagram.fist3-1.fna.fbcdn.net/v/t51.2885-19/s320x320/121828905_1482148085311102_982245898138888192_n.jpg?_nc_ht=instagram.fist3-1.fna.fbcdn.net&_nc_ohc=UGBC8XuONS0AX8Gcz-I&tp=1&oh=5a23bb54a70d70772e17043bfa63a59a&oe=5FFD619E",
+          "link": "https://www.instagram.com/iamanengineerr/",
+          "name": "iamanengineerr"
+        },
+        {
+          "logo":
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Webtekno_Logosu.png/1200px-Webtekno_Logosu.png",
+          "link": "https://www.webtekno.com"
+        },
+        {
+          "logo": "https://www.kampustenevar.com/assets/images/knv_logo.png",
+          "link": "https://www.kampustenevar.com/"
+        },
+        {
+          "logo":
+            "https://www.brandingturkiye.com/wp-content/uploads/2018/01/br-beyaz.png",
+          "link": "https://www.brandingturkiye.com/"
+        }
+      ]
+    },
+    {
+      "title": {
+        "tr": "Yetenek Sponsorlarımız",
+        "en": "Our Talent Sponsors"
+      },
+      "sponsors":[
+        {
+          "logo":"https://www.youthall.com/assets/img/ui/Youthall-Logo-Word-Blue.png?v200",
+          "link":"https://www.youthall.com"
+        },
+        {
+          "logo":"http://yetenekprogramlari.toptalent.co/wp-content/uploads/2019/06/cropped-toptalent-logo.png",
+          "link":"https://toptalent.co"
+        }
+      ]
+    }
+  ]

@@ -92,7 +92,7 @@
     "en": "Contact Us"
   },
   "meet_team": {
-    "tr": "Ekimibizle Tanışın",
+    "tr": "Ekibimizle Tanışın",
     "en": "Meet Our Team"
   },
   "best": {
@@ -131,8 +131,12 @@
     "tr": "Bizi Takip Edin",
     "en": "Follow Us"
   },
-  "quick":{
-      "tr":"Hızlı Linkler",
-      "en":"Quick Links"
+  "quick": {
+    "tr": "Hızlı Linkler",
+    "en": "Quick Links"
+  },
+  "gogallery": {
+    "tr": "Galeriye Git",
+    "en": "Go to Gallery"
   }
 }

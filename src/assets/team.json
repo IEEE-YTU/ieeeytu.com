@@ -34,7 +34,7 @@
       "image": "talha-berk-erpolat.jpeg",
       "facebook": null,
       "twitter": null,
-      "linkedin": null,
+      "linkedin": "https://www.linkedin.com/in/talha-berk-erpolat-2b56a1174",
       "instagram": null,
       "social": "talha-berk-erpolat",
       "email": "talhaerpolat@ieeeytu.com"
@@ -51,19 +51,6 @@
       "instagram": "akandee",
       "social": "akande-kurt",
       "email": "akandekurt@ieeeytu.com"
-    },
-    {
-      "id": 5,
-      "fullName": "Ata CİRİTOĞLU",
-      "title": "Yönetim Kurulu Üyesi",
-      "title_en": "Board Member",
-      "image": "ata-ciritoglu.jpeg",
-      "facebook": null,
-      "twitter": null,
-      "linkedin": "ata-ciritoğlu-19a209195",
-      "instagram": "illmindofata.exe",
-      "social": "ata-ciritoglu",
-      "email": "ataciritoglu@ieeeytu.com"
     }
   ],
   "ik": [
@@ -196,19 +183,6 @@
       "instagram": null,
       "social": "mustafa-onur-kilinc",
       "email": "mustafaonurkilinc@ieeeytu.com"
-    },
-    {
-      "id": 16,
-      "fullName": "Elif Büşra ERDEM",
-      "title": "Halkla İlişkiler ve Sosyal Medya Başkanı",
-      "title_en": "Head of Public Relations and Social Media",
-      "image": "elif-busra-erdem.jpeg",
-      "facebook": null,
-      "twitter": null,
-      "linkedin": null,
-      "instagram": null,
-      "social": "elif-busra-erdem",
-      "email": "elifbusraerdem@ieeeytu.com"
     },
     {
       "id": 17,

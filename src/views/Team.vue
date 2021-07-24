@@ -55,7 +55,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div
             v-for="(member, index) in team.yk.filter((x, i) => i !== 0)"
             :key="index"

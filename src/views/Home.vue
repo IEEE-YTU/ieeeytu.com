@@ -2,7 +2,7 @@
   <div>
     <div
       class="site-blocks-cover overlay"
-      style="background-image: url(https://images.unsplash.com/photo-1491308056676-205b7c9a7dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80);"
+      style="background-image: url(https://i.hizliresim.com/cdxcro.jpeg)"
       data-aos="fade"
       id="home-section"
     >
@@ -12,8 +12,32 @@
             <div class="single-text owl-carousel">
               <div class="slide">
                 <h1 class="text-uppercase" data-aos="fade-up">
-                  IEEE YTU
+                  20. YIL ÖZEL ONLINE FOTOĞRAF SERGİSİ
                 </h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">
+                  Dünden bugüne IEEE YTÜ !
+                </p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="/galeri" class="btn btn-primary mr-2 mb-2">
+                    {{ variables.gogallery[language] }}
+                  </a>
+                </div>
+              </div>
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">
+                  YILDIZ TORNAVİDA AÇILDI 🥳
+                </h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">
+                  Sen de Yıldız Tornavida'yı keşfet!
+                </p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                  <a href="/ytornavida" class="btn btn-primary mr-2 mb-2">
+                    {{ variables.explore[language] }}
+                  </a>
+                </div>
+              </div>
+              <div class="slide">
+                <h1 class="text-uppercase" data-aos="fade-up">IEEE YTU</h1>
                 <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">
                   {{ variables.slogan[language] }}
                 </p>
@@ -45,7 +69,7 @@
         </div>
         <div class="row">
           <div class="col ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-black mb-4" style="text-align:center">
+            <h3 class="text-black mb-4" style="text-align: center">
               {{ variables.slogan[language] }}
             </h3>
 
@@ -81,7 +105,7 @@
                 :key="index"
                 :src="require('@/assets/eventphotos/' + event.photo)"
                 class="img-fluid"
-                style="height:350px !important; object-fit:cover"
+                style="height: 350px !important; object-fit: cover"
               />
             </div>
             <div class="custom-direction">
@@ -167,7 +191,7 @@
             class="col-md-6 col-lg-4 mb-4 mb-lg-4"
             data-aos="fade-up"
             :data-aos-delay="committee.delay"
-            v-for="(committee, index) in committees.filter(x => x.logo)"
+            v-for="(committee, index) in committees.filter((x) => x.logo)"
             :key="index"
           >
             <a :href="'/komite/' + committee.slug">
@@ -181,7 +205,7 @@
                     />
                   </div>
                   <div>
-                    <h3 style="color:#4f4f4f !important">
+                    <h3 style="color: #4f4f4f !important">
                       {{
                         language === "tr" ? committee.name : committee.name_en
                       }}
@@ -198,94 +222,122 @@
         </div>
       </div>
     </section>
+
+    <section
+      style="background-color: #dfdfdfcc !important"
+      v-for="(item, index) in sponsors"
+      :key="index"
+      class="site-section border-bottom pb-5 pt-5"
+      id="services-section"
+    >
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">
+              {{ item.title[language] }}
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center align-content-center">
+          <div
+            v-for="(item2, index2) in item.sponsors"
+            :key="index2 + 'i'"
+            class="col-3 col-sm-2 sponsor-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <a :href="item2.link" target="_blank">
+              <img
+                style="width: 100%"
+                :src="item2.logo"
+                :alt="item2.name"
+                @error="imageError"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 <script>
 import committees from "../assets/committees.json";
 import variables from "../assets/variables.json";
+import events from "../assets/events.json";
+import sponsors from "../assets/sponsors.json";
 export default {
   data() {
     return {
       committees,
       variables,
+      events,
+      sponsors,
       comments: [
         {
           text: `"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Voluptates exercitationem ut totam distinctio magnam quisquam,
                 unde iure. Labore!."`,
-          fullName: "John Smith"
+          fullName: "John Smith",
         },
         {
           text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Maxime eligendi odio nihil officia quasi nostrum, ipsa est?
                 Culpa, ullam dolorem!"`,
-          fullName: "Rafet Topçu"
+          fullName: "Rafet Topçu",
         },
         {
           text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nihil veniam tempora beatae animi in sapiente quos maiores ex
                 aut."`,
-          fullName: "İrem Ekser"
-        }
+          fullName: "İrem Ekser",
+        },
       ],
-      events: [
-        {
-          title: "RLC GÜNLERİ",
-          title_en: "RLC DAYS",
-          slug: "rlc-gunleri",
-          photo: "rlc-gunleri.jpg",
-          description:
-            "RLC Günleri, Türkiye’de sanayi-öğrenci-akademisyen iş birliğine olanak sağlayan ‘Sektörün En Bilinen Öğrenci Etkinliği’dir.",
-          description_en:
-            "The RLC Days is a career event which we started in 2005 under the name of “Electronics Days” with the slogan “You Cannot Become An Engineer By Just Entering The Lessons”; has spread to a large mass in the fields of Electricity, Electronics, Energy, Automation and Lighting."
-        },
-        {
-          title: "İLTEK GÜNLERİ",
-          title_en: "ILTEK DAYS",
-          slug: "iltek-gunleri",
-          photo: "iltek-gunleri.jpg",
-          description:
-            "İLTEK (İletişim ve Bilişim Teknolojileri) Günleri; iletişim, bilişim, elektronik, mekatronik ve telekominikasyon başta olmak üzere tüm teknoloji konularını mercek altına almaktadır.",
-          description_en:
-            "As IEEE YTU Student Club, “You Cannot Become An Engineer By Just Entering The Lessons!” We have been organizing ILTEK Days since 2006 on this road we set off with the slogan. İLTEK (Communication and Information Technologies) Days; It focuses on all technology issues, especially communication, informatics, electronics, mechatronics and telecommunication."
-        },
-        {
-          title: "BioForm",
-          title_en: "BioForm",
-          slug: "emb-komitesi",
-          photo: "bioform.png",
-          description:
-            "Bioform ile başta biyomühendislik, biyoloji, tıp mühendisliği, biyomekatronik sistemler mühendisliği, biyomedikal mühendisliği ile doku mühendisliği, genetik mühendisliği, moleküler biyoloji ve genetik bölümleri yanında tüm mühendislik alanlarında öğrenim gören öğrencileri sektör ile buluşturuyoruz. Bizim en büyük amacımız mühendislik ve sağlık alanıyla ortaklaşa multidisipliner çalışmalar ortaya koyabilmektir.",
-          description_en:
-            "With Bioform, we bring together students who study in bioengineering, biology, medical engineering, biomechatronic systems engineering, biomedical engineering, tissue engineering, genetic engineering, molecular biology and genetics as well as all engineering fields. Our greatest goal is to be able to carry out multidisciplinary studies jointly with engineering and healthcare."
-        },
-        {
-          title: "Yıldızlı Projeler Yarışması",
-          title_en: "Yıldızlı Projeler Yarışması",
-          slug: "yildizli-projeler-yarismasi",
-          photo: "yildizli-projeler-yarismasi.jpg",
-          description:
-            "2009’dan bu yana Yıldızlı Projeler Yarışması, öğrencilerin projelerinin hayata geçmesi konusunda onlara destek olarak bu projelerin ürüne dönüşmesinde rol oynayan, üniversite-sanayi işbirliğini somutlaştıran, genç ve pratik beyinlerin rekabet ettiği bir yarışmadır. ",
-          description_en:
-            "Since 2009,Yıldızlı Projeler Yarışması is a competition that supports students in the realization of their projects, embodies the university-industry cooperation, and which young and practical minds compete. Yıldızlı Projeler Yarışması consists of two categories: student and start-up. Each category will compete within itself because support for more than one project is provided."
-        },
-        {
-          title: "Kutup Yıldızı",
-          title_en: "Kutup Yıldızı",
-          slug: "basin-yayin-komitesi",
-          photo: "kutup-yildizi.jpg",
-          description:
-            "Kutup Yıldızı, iş, sanat, spor ve bilim dünyasının önde gelen isimlerinin katıldığı 4 temel oturumu bulunan, “Geleceğine Yön Ver!” sloganı ile yola çıkarak öğrencileri hayatlarıyla etkileyecek ve onları harekete geçirecek isimlerin katıldığı sosyal bir etkinliktir. Kutup Yıldızı etkinliğini Basın-Yayın komitesi düzenlemektedir.",
-          description_en:
-            "The Kutup Yıldızı event is a social event that was held at the beginning of the year to increase the motivation of club members and to inspire them; has 4 main sessions attended by leading names from business, art, sports and science worlds, will impress students with their lives by starting out with the slogan 'Shape Your Future!’ and attended by people who will mobilize them. Kutup Yıldızı is arranged by the Media-Publications Committee"
-        }
-      ]
     };
+  },
+  methods: {
+    imageError(e) {
+      e.target.parentNode.innerHTML = "<span>" + e.target.alt + "</span>";
+    },
   },
   computed: {
     language() {
       return this.$ls.get("language");
-    }
-  }
+    },
+  },
 };
 </script>
+<style>
+.sponsor-card {
+  background: rgb(255, 255, 255, 0.3);
+  margin: 4px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.082);
+  transition: 300ms;
+}
+.sponsor-card:hover {
+  background: rgb(255, 255, 255, 0.4);
+}
+.sponsor-card a {
+  height: 100%;
+  display: inline-flex;
+  width: 100%;
+}
+.sponsor-card img {
+  object-fit: contain;
+}
+.sponsor-card span {
+  color: rgb(44, 44, 44);
+  text-align: center;
+  font-size: 15px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: block;
+  margin: auto 0;
+  width: 100%;
+}
+.sponsor-card span:hover {
+  text-decoration: underline;
+}
+</style>
